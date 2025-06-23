@@ -18,11 +18,21 @@
   }
   
   .header-container img {
-    max-width: 100px;
+    max-width: 150px;
     height: auto;
     object-fit: contain;
     flex: 1 1 auto;
   }
+
+  .header-container .image_model1{
+      position: relative;
+      top: 27px;
+    }
+
+    .header-container .image_model2{
+      position: relative;
+      top: 70px;
+    }
 
   .main-content {
     display: flex;
@@ -133,6 +143,16 @@
   
     .header-container img {
       max-width: 60px;
+    }
+
+    .header-container .image_model1{
+      position: relative;
+      top: 24px;
+    }
+
+    .header-container .image_model2{
+      position: relative;
+      top: 42px;
     }
   }
   
